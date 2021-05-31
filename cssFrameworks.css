@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(220, 241, 248);
+    text-align: center;
+    padding-top: 50px;
+    }
+
+.card {
+    box-shadow: 0 0 5px 0 rgba(100, 100, 100, 0.26);
+}
+
+.card-text {
+    font-size: small;
+     }
+
+
+/*For mobile*/
+@media only screen and (max-width: 770px) {
+    .container {
+        flex-direction: column;
+        }
+}
+      
+/* For tablets: */
+@media only screen and (min-width: 770px, max-width: 1024px) {
+    .row{
+        display: inline-block;
+        }
+}
